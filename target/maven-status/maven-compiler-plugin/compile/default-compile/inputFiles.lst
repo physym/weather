@@ -1,0 +1,13 @@
+/home/cowain/git/cowain/weather/src/main/java/com/weather/JsonResult.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/service/WeatherService.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/config/ThreadPoolFactory.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/aspect/LimitAspect.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/exception/BizException.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/controller/WeatherController.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/annotation/Limit.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/config/ComponentConfig.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/WeatherApplication.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/exception/BIzExceptionHandler.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/service/WeatherServiceImpl.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/vo/WeatherVo.java
+/home/cowain/git/cowain/weather/src/main/java/com/weather/vo/CodeVo.java

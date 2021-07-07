@@ -1,0 +1,26 @@
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+        accept-count: 1000
+        max-connection: 10000
+    port: 8080
+    connection-timeout: 5000ms
+
+spring:
+    profiles:
+      active: dev
+
+jnuit:
+    jupiter:
+        execution:
+            parallel:
+                enabled: true
+                mode:
+                    default: concurrent
+                    classes:
+                        default: concurrent
+                config: fixed
+                fixed:
+                    parallelism: 150
