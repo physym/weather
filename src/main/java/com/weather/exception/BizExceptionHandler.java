@@ -30,4 +30,11 @@ public class BizExceptionHandler {
         return JsonResult.error(e.getMsg(), null, e.getCode());
     }
 
+    /**
+     * Exception
+     */
+    @ExceptionHandler(Exception.class)
+    public JsonResult<Object> handleException(Exception e) {
+        return JsonResult.error("unkown error", e.getMessage(), "4001");
+    }
 }

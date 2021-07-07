@@ -47,4 +47,5 @@ class WeatherServiceTest {
             log.info("temp:" + opt.get());
         });
     }
+
 }
